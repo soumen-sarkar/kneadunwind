@@ -1,0 +1,119 @@
+/*Medium device (MD)*/
+@media (max-width: 1199px) {	
+	.navigation .nav li a {
+		padding: 10px 22px;
+	}
+	.ctaWraper {
+		padding-top: 143px;
+	}
+	.ctaWraper h1 {
+		font-size: 48px;
+	}
+	.contactList li,
+	.contactList li a {
+		font-size: 16px;
+	}
+	.address h5 {
+		font-size: 18px;
+	}
+}
+/*Small device (SD)*/
+@media (max-width: 991px) {	
+	.navigation .nav li a {
+		padding: 10px 13px;
+		font-size: 13px;
+	}
+	.content {
+		padding-top: 43px;
+		padding-bottom: 23px;
+	}
+	.address {
+		text-align: center;
+		margin-bottom: 26px;
+	}
+	#location {
+		margin-bottom: 26px;
+	}
+	.contactList li {
+		padding: 0 13px;
+	}
+	.contactList li, .contactList li a {
+		font-size: 14px;
+	}
+}
+/*Extra small device (XS)*/
+@media (max-width: 767px) {	
+	.header {
+		padding-bottom: 10px;
+	}
+	.logo img {
+		padding-top: 0px;
+		display: block;
+		margin: 0 auto 23px;
+	}
+	.appointmentButton {
+		margin-bottom: 23px;
+		text-align: center;
+	}
+	.navigation .navbar-toggle {
+		background-color: #5c2278;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		float: none;
+		margin: 0 auto;
+		border-radius: 0;
+		-moz-border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+	}
+	.navigation .nav {
+		text-align: center;
+	}
+	.navigation .nav li a {
+		font-size: 16px;
+	}
+	.ctaWraper {
+		padding-top: 43px;
+	}
+	.ctaWraper h1 {
+		font-size: 34px;
+	}
+	.serviceList {
+		margin-bottom: 30px;
+	}
+	.serviceList img {
+		margin-bottom: 23px;
+	}
+}
+/*Extra small device (XS-More refine)*/
+@media (max-width: 580px) {		
+	.navigation .nav li {
+		display: block;
+	}
+	.navigation .nav li a {
+		background-color: #99ae42;
+		color: #fff;
+		font-size: 16px;
+		text-align: left;
+	}
+	.navigation .nav li a:hover,
+	.navigation .nav li a:focus {
+		background-color: #5c2278;
+		color: #fff;
+	}	
+}
+/*Extra small device (XS-More refine)*/
+@media (max-width: 480px) {	
+	.navigation .nav li a {
+		font-size: 16px;
+	}
+	h2.headingText span {
+		padding: 0;
+	}
+	h2.headingText::after {
+		top: 110%;
+		left: 0;
+		width: 100%;
+	}
+}
